@@ -1,1 +1,3 @@
 $SPARK_HOME/bin/spark-submit --master yarn --deploy-mode cluster /home/labdata/bank-marketing/bank-predict-final.py
+
+hadoop fs -ls predictions/2018-08-10/predictions
