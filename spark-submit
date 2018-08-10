@@ -1,1 +1,1 @@
-$SPARK_HOME/bin/spark-submit --master yearn --deploy-mode cluster 
+$SPARK_HOME/bin/spark-submit --master yarn --deploy-mode cluster /home/labdata/bank-marketing/bank-predict-final.py
